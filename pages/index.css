@@ -1,9 +1,12 @@
 /* Normalize */
 @import url(../vendor/normalize.css);
 
+/* Fonts */
+@import url(../vendor/fonts.css);
+
 /* Page */
 @import url(../blocks/page/page.css);
-@import url(../blocks/container/container.css);
+@import url(../blocks/content/content.css);
 
 /* Header */
 @import url(../blocks/header/header.css);
@@ -19,23 +22,7 @@
 
 /* Intro */
 @import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__content/intro__content.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-
-/* Fonts */
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../fonts/Inter-Regular.woff2') format('woff2'),
-    url('../fonts/Inter-Regular.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 900;
-  src: url('../fonts/Inter-Black.woff2') format('woff2'),
-    url('../fonts/Inter-Black.woff') format('woff');
-}
