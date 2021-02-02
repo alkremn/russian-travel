@@ -1,7 +1,13 @@
 .place__link {
   display: inline-block;
   margin-top: 12px;
+  font-size: 18px;
+  line-height: 22px;
   grid-column: 2;
   text-decoration: underline;
   color: #fff;
+}
+
+.place__link:hover {
+  opacity: 0.8;
 }
