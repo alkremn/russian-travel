@@ -2,15 +2,17 @@
   position: relative;
   width: 100%;
   max-width: 1184px;
-  min-height: 740px;
+  max-height: 740px;
+  height: calc((740 / 1184) * 100vw);
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(/images/__background.png);
+  background-image: url(../../images/__background.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+
   margin-top: 92px;
   text-decoration: none;
   color: #fff;
