@@ -1,7 +1,12 @@
 .intro {
   padding-top: 92px;
-  width: 80%;
   max-width: 984px;
-  width: 85%;
+  width: calc(100vw - 96px);
   margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100vw - 48px);
+  }
 }
