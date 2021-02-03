@@ -11,3 +11,12 @@
     line-height: 46px;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 35px;
+    width: calc(100vw - 32px);
+    margin: 0 auto;
+  }
+}
