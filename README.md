@@ -2,6 +2,10 @@
 
 Проект о путешествии по России, по макету из Фигмы(ссылка прилaгается) с использованием адаптивной верстки для самых распространённых разрешениях экранов.
 
+**Github Pages**
+
+- [Ссылка на страницу проекта](https://alkremn.github.io/russian-travel/index.html)
+
 **Figma**
 
 - [Ссылка на макет в Figma](https://www.figma.com/file/OyRWEjU6wBwRe1hapzQoLx/Sprint-3%3A-Russia-%2F-desktop-%2B-mobile?node-id=28503%3A0)
@@ -12,7 +16,3 @@
 - CSS (а том числе Flexbox, анимации и т.д.)
 - Организация файлов по БЭМ
 - Адаптивная верстка
-
-
-**Github Pages**
-- [Ссылка на страницу проекта](https://alkremn.github.io/russian-travel/index.html)
