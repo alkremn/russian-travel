@@ -3,8 +3,7 @@
   max-width: 984px;
   width: calc(100vw - 96px);
   margin: 0 auto;
-  list-style: none;
-  padding-left: 0;
+  
 }
 
 @media screen and (max-width: 768px) {
