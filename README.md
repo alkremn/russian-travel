@@ -12,3 +12,7 @@
 - CSS (а том числе Flexbox, анимации и т.д.)
 - Организация файлов по БЭМ
 - Адаптивная верстка
+
+
+**Github Pages**
+- [Ссылка на страницу проекта](https://alkremn.github.io/russian-travel/index.html)
