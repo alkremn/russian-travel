@@ -3,9 +3,9 @@
   align-self: flex-end;
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 620px) {
   .place__website {
-    order: 2;
     align-self: flex-start;
+    margin-left: 16px;
   }
 }

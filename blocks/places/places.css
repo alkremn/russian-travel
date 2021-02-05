@@ -3,12 +3,18 @@
   max-width: 984px;
   width: calc(100vw - 96px);
   margin: 0 auto;
-  
 }
 
 @media screen and (max-width: 768px) {
   .places {
     width: calc(100vw - 48px);
+    padding-top: 68px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .places {
+    padding-top: 64px;
   }
 }
 

@@ -1,7 +1,7 @@
 .place {
   display: grid;
-  grid-template-columns: minmax(auto, 460px) auto;
-  grid-template-rows: auto minmax(min-content, 460px);
+  grid-template-columns: minmax(40%, 460px) auto;
+  grid-template-rows: auto auto;
   margin-top: 80px;
   gap: 40px;
 }
@@ -22,10 +22,10 @@
   }
 }
 
-@media screen and (max-width: 610px) {
+@media screen and (max-width: 620px) {
   .place {
     display: flex;
     flex-direction: column;
-    margin-top: 32px;
+    margin-top: 50px;
   }
 }
